@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-04-22T06:45:39.592Z",
+  "source": "artillery/report.json",
+  "totals": {
+    "requests": 3000,
+    "successResponses": 3000,
+    "errors": 0
+  },
+  "responseTimeMs": {
+    "average": 0.7,
+    "p95": 1,
+    "p99": 2,
+    "max": 67
+  },
+  "passThresholds": {
+    "averageBelow500ms": true
+  }
+}

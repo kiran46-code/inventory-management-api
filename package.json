@@ -1,0 +1,19 @@
+{
+  "name": "inventory-management-api",
+  "version": "1.0.0",
+  "description": "Product inventory APIs with low-stock alerts, supplier relationship management, search/filtering, CI/CD, and load testing.",
+  "main": "index.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test",
+    "load:test": "artillery run artillery/inventory-load-test.yml --output artillery/report.json",
+    "load:summary": "node scripts/summarize-artillery.js"
+  },
+  "devDependencies": {
+    "artillery": "^2.0.30"
+  }
+}

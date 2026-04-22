@@ -1,0 +1,18 @@
+config:
+  target: "http://127.0.0.1:3000"
+  phases:
+    - duration: 30
+      arrivalRate: 20
+scenarios:
+  - name: "inventory-and-supplier-read-traffic"
+    flow:
+      - get:
+          url: "/health"
+      - get:
+          url: "/api/products?category=electronics&sortBy=price&sortOrder=desc"
+      - get:
+          url: "/api/products?lowStockOnly=true&page=1&pageSize=5"
+      - get:
+          url: "/api/suppliers"
+      - get:
+          url: "/api/alerts/low-stock"
