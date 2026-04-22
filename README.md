@@ -1,5 +1,7 @@
 # Inventory Management API
 
+[Open Project Repository](https://github.com/kiran46-code/inventory-management-api)
+
 [![CI-CD](https://img.shields.io/github/actions/workflow/status/kiran46-code/inventory-management-api/ci-cd.yml?branch=main&label=CI%2FCD)](https://github.com/kiran46-code/inventory-management-api/actions/workflows/ci-cd.yml)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D20-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
 [![Performance](https://img.shields.io/badge/avg%20response%20time-0.7ms-success)](docs/load-test-results.md)
