@@ -1,5 +1,10 @@
 # Inventory Management API
 
+[![CI-CD](https://img.shields.io/github/actions/workflow/status/kiran46-code/inventory-management-api/ci-cd.yml?branch=main&label=CI%2FCD)](https://github.com/kiran46-code/inventory-management-api/actions/workflows/ci-cd.yml)
+[![Node.js](https://img.shields.io/badge/node-%3E%3D20-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Performance](https://img.shields.io/badge/avg%20response%20time-0.7ms-success)](docs/load-test-results.md)
+[![API Docs](https://img.shields.io/badge/docs-api%20endpoints-blue)](docs/api-endpoints.md)
+
 Node.js inventory backend with:
 
 - Product inventory APIs
@@ -8,6 +13,8 @@ Node.js inventory backend with:
 - Advanced search and filtering
 - GitHub Actions CI/CD
 - Artillery load-test assets and documented results
+
+Designed for inventory operations workflows where product availability, supplier visibility, and performance reporting need to be demonstrated together in one repository.
 
 ## Quick start
 
